@@ -6,7 +6,7 @@ tabela = table(dados)
 
 View(tabela)
 
-valores = dados$Salários
+valores = dados$Sal�rios
 
 png(filename = "Graficos/ex4.png", width = 500, height = 500)
 hist(x = valores, col = "orange" ,main = "Salários do hospital", xlab = "Salário", ylab="Frequência")
